@@ -43,9 +43,9 @@ public class Car {
         
         Car myCar = new Car("Arnob", "Toyota", "ABCD1234", 10);
 
-        System.out.println(myCar.owner);
-        System.out.println(myCar.brand);
-        System.out.println(myCar.serialNumber);
+        System.out.println("Owner name: " + myCar.owner);
+        System.out.println("Brand name: " + myCar.brand);
+        System.out.println("Serial number: " + myCar.serialNumber);
         myCar.startCar();
         System.out.println("Car status: " + (myCar.isRunning ? "Running" : "Stopped"));
         myCar.stopCar();
